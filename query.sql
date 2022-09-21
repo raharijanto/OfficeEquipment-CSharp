@@ -59,7 +59,7 @@ INSERT INTO PLACEMENT(PlaceId, PlaceName, RefPlace) VALUES
 (1, 'Mechanical Engineering Workplace', 1),		-- Will be updated to (Mechanical Engineering Workspace) using SQL Connection
 (2, 'Electrical Engineering Workplace', 3),
 (3, 'Software Engineering Workplace', 4),
---(4, 'General Workplace', 2);		-- Will be inserted using SQL Connection
+--(4, 'General Workplace', 2);		-- Will be inserted and deleted using SQL Connection
 
 --- Quantity Data
 INSERT INTO QUANTITY(ItemUsed, RefNumber) VALUES
